@@ -22,7 +22,7 @@ const useMarvelService = () => {
   };
 
   // Comics
-  // https://gateway.marvel.com:443/v1/public/ comics?  apikey=c4b1d7aeabb3713a3eb1c094d05ae375
+  // https://gateway.marvel.com:443/v1/public/comics?apikey=c4b1d7aeabb3713a3eb1c094d05ae375
 
   const getAllComics = async (offset = 0) => {
     const res = await request(

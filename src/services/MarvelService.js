@@ -21,7 +21,7 @@ const useMarvelService = () => {
     return _transformCharacter(res.data.results[0]);
   };
 
-  // Comics
+  // Comics - function
 
   const getAllComics = async (offset = 0) => {
     const res = await request(
